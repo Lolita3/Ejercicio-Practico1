@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Solicitud de registro como usuario</title> 
+    </head>
+
+    <body>
+
+    <h1>Solicitud de registro como usuario </h1>
+    <h2>Saturdays.AI</h2>
+
+    <!-- MENU -->
+    <menu>
+    <h3>Menu</h3>
+    <a href="#infoA.I"><button>Información de Saturdays.AI </button></a>
+    <br />
+    <a href="#formulario"><button>Formulario </button></a>
+    </menu>
+
+    <!-- Informacion de A.I -->
+    <img src="A.I.png" alt="imagen #1">
+    <p>
+    <a name="infoA.I"></a>
+
+    <p> <b>AI Saturdays</b></p>
+
+    Nuestro programa insignia. AI Saturdays es un bootcamp social de inteligencia artificial que dura entre 12 y 15 sesiones de 5 horas cada una. Siempre programado los sábados para que todos tengan la oportunidad de aprender mientras construyen proyectos impulsados ​​por IA.
+    Se espera que cada individuo invierta más de 150 horas de esfuerzo en el programa, mientras construye un prototipo de IA de impacto social como parte de un equipo, el código será de código abierto en la graduación.
+    </p>
+    <nav> 
+    <a href="https://saturdays.ai/" target="_blank">Ingrese para mas información</a>
+    </nav>
+
+        <!-- FORMULARIO -->
+        <hr>
+        <p>
+        <a name="formulario"></a>        
+        <h1>Login</h1> 
+              <p> 
+                  <label for="username"> Nombre de usuario: </label>
+                  <input id="username" name="username" required="required" type="text" placeholder="Tu nombre de usuario"/>
+              <br />
+         
+                  <label for="password"> Contraseña:</label>
+                  <input id="password" name="password" required="required" type="password" placeholder="Tu password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Debe contener al menos un número y una letra minúscula y mayúscula, y al menos 8 o más caracteres"/> 
+                 
+             <br />
+          
+              <p class="login button"> 
+                  <input type="submit" value="Login" /> 
+                  <br />
+              <p class="change_link">
+                  Aún no eres miembro
+                  <a href="#toregister" class="to_register">Regístrate</a>
+                  <br />
+            </form>
+          </div>
+            <!-- FORMULARIO Registro -->
+
+          <div id="register" class="form">
+             <h1> Registro</h1> 
+              <p> 
+                  <label for="usernamesignup">Tu nombre</label>
+                  <input id="usernamesignup" name="usernamesignup" required="required" type="text" placeholder="Escriba su Nombre" />
+                  <br />
+              
+                  <label for="emailsignup"> Tu email</label>
+                  <input id="emailsignup" name="emailsignup" required="required" type="email" placeholder="ejemplo@mail.com"/> 
+                  <br />
+
+                  <form method="POST" action="action.php">
+                    Ingresa tu contraseña:<input name="passwordsignup" required="required" type="password" placeholder="eg. X8df!90EO" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Debe contener al menos un número y una letra minúscula y mayúscula, y al menos 8 o más caracteres"/> 
+                </form>
+                  <br /> <br />
+                  <form method="POST" action="action.php">
+                 Confirma tu password:<input id="passwordsignup_confirm" name="passwordsignup_confirm" required="required" type="password" placeholder="eg. X8df!90EO"/>
+                </form>
+
+                  <br />
+                  <form method="get" action="C:\Users\lolit\Desktop\EjercicioPractico 1\pag2.html">
+                  <input type="submit" value="Registro"/>   
+            </form>
+          </div>
+    </body>
+</html>
